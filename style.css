@@ -1,0 +1,198 @@
+header{
+        background-image: url(./img/wall3.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 0;
+        padding:0 0 42%;
+        /*border: 1px solid;*/
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .navbar-custom {
+       margin-bottom: 0;
+       border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+       text-transform: uppercase;
+       font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       background-color: black;
+     }
+     .navbar-custom .navbar-toggle {
+       color: white;
+       background-color: rgba(0, 0, 0, 0.5);
+       font-size: 12px;
+     }
+     .navbar-custom .navbar-toggle:focus,
+     .navbar-custom .navbar-toggle:active {
+       outline: none;
+     }
+     .navbar-custom .navbar-brand {
+       font-weight: 700;
+     }
+     .navbar-custom .navbar-brand:focus {
+       outline: none;
+     }
+     .navbar-custom a {
+       color: lightgreen;
+     }
+     .navbar-custom .nav li a {
+       -webkit-transition: background 0.3s ease-in-out;
+       -moz-transition: background 0.3s ease-in-out;
+       transition: background 0.3s ease-in-out;
+     }
+     .navbar-custom .nav li a:hover {
+       color: rgba(144, 238, 144, 0.8);
+       outline: none;
+       background-color: rgba(0, 0, 0, 0.5);;
+     }
+     .navbar-custom .nav li a:focus,
+     .navbar-custom .nav li a:active {
+       outline: none;
+       background-color: rgba(0, 0, 0, 0.5);;
+     }
+     .navbar-custom .nav li.active {
+       outline: none;
+     }
+     .navbar-custom .nav li.active a {
+       background-color: rgba(255, 255, 255, 0.3);
+     }
+     .navbar-custom .nav li.active a:hover {
+       color: lightgreen;
+     }
+     @media (min-width: 768px) {
+       .navbar-custom {
+         padding: 20px 0;
+         border-bottom: none;
+         letter-spacing: 1px;
+         color: lightgreen;
+         background: rgba(0, 0, 0, 0.5);
+         -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+         -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+         transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+       }
+       .navbar-custom.top-nav-collapse {
+         padding: 0;
+         background: lightgreen;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+       }
+     }
+@media(max-width: 768px){
+  .bio {
+    padding-top: 15%;
+  }
+}
+.bio {
+  /*padding-bottom: 10%;*/
+  background: #e34327;
+  background: linear-gradient(#e34327,#fae0db);
+  color: darkslategray;
+  /*padding-bottom: 25%;*/
+}
+
+.header-text{
+  padding-top: 10%;
+  padding-left: 10%;
+  font-family: 'Arvo';
+  font-size: 40px;
+  color: darkslategray;
+}
+
+.bio-title, .expertise-title, .projects-title {
+  font-family: "Ubuntu";
+  text-align: center;
+  padding-top: 5%;
+  font-size: 40px;
+  color: darkslategray;
+}
+.bio-detail{
+    line-height: 50px;
+    font-family: "Ubuntu";
+    text-align: center;
+    font-size: 25px;
+}
+@media(min-width: 768px) {
+  .pic {
+    margin-left:80px;
+    padding-top: 5%;
+  }
+}
+
+.pics{
+  max-height: 200px;
+  background-blend-mode: darken;
+}
+.caption > p {
+  font-size: 18px;
+  font-family: "Ubuntu";
+  line-height: 30px;
+}
+
+.landing {
+  padding-top: 20px;
+}
+.mean {
+  padding-top: 5px;
+}
+.ionic {
+  padding-top: 15px;
+}
+.expertise-detail-2 {
+  margin-top: 5%;
+}
+
+.projects {
+  /*padding-bottom: 25%;*/
+  background: #fae0db;
+  background: linear-gradient(#fae0db,white);
+}
+
+
+
+.bs-example, .new-caption-area {
+    margin: auto;
+    color: #000;
+  }
+.carousal {
+  max-height: 400px;
+  margin: auto;
+}
+  .carousel-caption {
+	color: #000;
+}
+.new-caption-area > p{
+  width: 60%;
+  margin: auto;
+  font-size: 25px;
+  font-family: "Ubuntu";
+  line-height: 45px;
+  color: darkslategray;
+}
+
+.prjs {
+  padding-top: 5%;
+  padding-left: 5%;
+  margin: auto;
+}
+.visit {
+  margin: auto;
+  text-align: center;
+}
+.contact-header {
+	padding: 50px;
+  text-align: center;
+  color: white;
+}
+.contact {
+  margin-top: 5%;
+  background-color: darkslategray;
+}
+@media(min-width:768px){
+  .icons {
+    padding-left: 250px;
+  }
+}
+.icons {
+  font-size:100px;
+  padding-bottom:50px;
+}
